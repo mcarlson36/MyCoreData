@@ -14,6 +14,7 @@
 		30DD5D92271E5F7E0017E7AD /* MyCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30DD5D90271E5F7E0017E7AD /* MyCoreData.xcdatamodeld */; };
 		30DD5D94271E5F7F0017E7AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30DD5D93271E5F7F0017E7AD /* Assets.xcassets */; };
 		30DD5D97271E5F7F0017E7AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DD5D95271E5F7F0017E7AD /* LaunchScreen.storyboard */; };
+		30DD5D9F271E65000017E7AD /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DD5D9E271E65000017E7AD /* ContactTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		30DD5D93271E5F7F0017E7AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30DD5D96271E5F7F0017E7AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30DD5D98271E5F7F0017E7AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30DD5D9E271E65000017E7AD /* ContactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				30DD5D95271E5F7F0017E7AD /* LaunchScreen.storyboard */,
 				30DD5D98271E5F7F0017E7AD /* Info.plist */,
 				30DD5D90271E5F7E0017E7AD /* MyCoreData.xcdatamodeld */,
+				30DD5D9E271E65000017E7AD /* ContactTableViewController.swift */,
 			);
 			path = MyCoreData;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				30DD5D92271E5F7E0017E7AD /* MyCoreData.xcdatamodeld in Sources */,
 				30DD5D8C271E5F7E0017E7AD /* ViewController.swift in Sources */,
+				30DD5D9F271E65000017E7AD /* ContactTableViewController.swift in Sources */,
 				30DD5D88271E5F7E0017E7AD /* AppDelegate.swift in Sources */,
 				30DD5D8A271E5F7E0017E7AD /* SceneDelegate.swift in Sources */,
 			);
@@ -299,6 +303,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,7 +315,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -327,6 +332,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -338,7 +344,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
